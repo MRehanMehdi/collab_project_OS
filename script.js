@@ -1,4 +1,4 @@
-// Add click effect to navigation links
+// Navigation highlight and alert
 const navLinks = document.querySelectorAll('.navbar a');
 
 navLinks.forEach(link => {
@@ -8,3 +8,8 @@ navLinks.forEach(link => {
         alert(`You clicked on ${link.textContent}`);
     });
 });
+
+// Show current year in footer automatically
+const yearSpan = document.getElementById('year');
+const currentYear = new Date().getFullYear();
+yearSpan.textContent = currentYear;
