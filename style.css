@@ -1,4 +1,4 @@
-/* Reset basic styles */
+/* Reset styles */
 * {
     margin: 0;
     padding: 0;
@@ -32,7 +32,8 @@ header {
 .navbar ul li a.active {
     background-color: #007bff;
 }
-/* Footer Styling */
+
+/* Footer styling */
 footer {
     background-color: #004aad;
     color: white;
