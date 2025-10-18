@@ -32,3 +32,16 @@ header {
 .navbar ul li a.active {
     background-color: #007bff;
 }
+/* Footer Styling */
+footer {
+    background-color: #004aad;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}
